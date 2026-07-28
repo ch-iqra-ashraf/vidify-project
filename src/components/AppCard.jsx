@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./button";
+import Button from "./Button";
 import { ArrowLeftIconSVG, ArrowRightIconSVG } from "./Icons/AlIcons";
 
 const AppCard = ({ data, onPrev, onNext }) => {
