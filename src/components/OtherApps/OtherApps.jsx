@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AppCard from "./AppCard";
-import Button from "./Button";
-import { allData } from "../util/data";
+import Button from "../Button";
+import { allData } from "../../util/data";
 
 const OtherApps = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

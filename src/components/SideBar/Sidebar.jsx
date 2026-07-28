@@ -15,7 +15,7 @@ import {
   PointOfSaleIconSVG,
   ProductIconSVG,
   ShopIconSVG,
-} from "./Icons/AlIcons";
+} from "../Icons/AlIcons";
 
 const Sidebar = () => {
   return (
@@ -37,7 +37,7 @@ const Sidebar = () => {
 
       {/* Sales channels group */}
       <div className="flex flex-col gap-1 px-3">
-      <SideBarHeading name={"Sales Channel"} Icon={ArrowIconSVG} />
+        <SideBarHeading name={"Sales Channel"} Icon={ArrowIconSVG} />
 
         <MenuItem name={"Online Store"} Icon={OnlineStoreIconSVG} />
         <MenuItem name={"Point of Sale"} Icon={PointOfSaleIconSVG} />
@@ -46,7 +46,7 @@ const Sidebar = () => {
 
       {/* Apps group */}
       <div className="flex flex-col gap-1 px-3 mt-4">
-      <SideBarHeading name={"Apps"} Icon={ArrowIconSVG} />
+        <SideBarHeading name={"Apps"} Icon={ArrowIconSVG} />
 
         <MenuItem name={"Vidify"} />
         <MenuItem name={"Generate Video"} />

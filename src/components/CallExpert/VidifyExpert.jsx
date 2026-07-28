@@ -1,6 +1,6 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { AIVideoIconSVG, CallIconSVG } from "./Icons/AlIcons";
+import { AIVideoIconSVG, CallIconSVG } from "../Icons/AlIcons";
 
 const VideoAI = () => {
   return (

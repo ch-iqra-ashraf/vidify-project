@@ -1,8 +1,13 @@
 import React from "react";
-import { ArrowIconSVG } from "./Icons/AlIcons";
+import { ArrowIconSVG } from "../Icons/AlIcons";
 
-
-const InfoCard = ({ Icon, heading, description, onArrowClick, bgColor = "#008060" }) => {
+const InfoCard = ({
+  Icon,
+  heading,
+  description,
+  onArrowClick,
+  bgColor = "#008060",
+}) => {
   return (
     <div className="flex flex-row items-center justify-between w-233   p-4 rounded-lg bg-white">
       <div className="flex flex-row items-center gap-3">
@@ -30,4 +35,3 @@ const InfoCard = ({ Icon, heading, description, onArrowClick, bgColor = "#008060
 };
 
 export default InfoCard;
-

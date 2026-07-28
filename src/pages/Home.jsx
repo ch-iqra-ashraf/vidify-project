@@ -1,14 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Topbar from "../components/Topbar";
-import VideoAI from "../components/Videoai";
-import Welcome from "../components/Welcome";
-import Sidebar from "../components/Sidebar";
-import VideoGenerator from "../components/Videogenerator";
-import DriveSales from "../components/DriveSales";
-import VidifyExpert from "../components/VidifyExpert";
-import OtherApps from "../components/OtherApps";
-
+import Navbar from "../components/Navbar/Navbar";
+import Topbar from "../components/Topbar/Topbar";
+import VideoAI from "../components/CallExpert/Videoai";
+import Welcome from "../components/Welcome/Welcome";
+import Sidebar from "../components/SideBar/Sidebar";
+import VideoGenerator from "../components/GenerateVideo/Videogenerator";
+import DriveSales from "../components/Drive Sales/DriveSales";
+import VidifyExpert from "../components/CallExpert/VidifyExpert";
+import OtherApps from "../components/OtherApps/OtherApps";
 
 const Home = () => {
   return (

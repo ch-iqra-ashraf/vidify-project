@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 
 const VideoGenerator = () => {
   const videosUsed = 1;
@@ -36,7 +36,7 @@ const VideoGenerator = () => {
             />
           </svg>
         </div>
-          <Button name={"Upgrade Your Plan"} />
+        <Button name={"Upgrade Your Plan"} />
       </div>
 
       <p className="text-sm text-gray-600 font-[11px] items-center">

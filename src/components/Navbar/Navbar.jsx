@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#1A1A1A] text-[#E3E3E3] h-12 flex items-center justify-between px-4 font-sans select-none">
+    <nav className="bg-[#1A1A1A] text-[#E3E3E3] h-14 flex items-center justify-between px-4 font-sans select-none">
       {/*Shopify Logo */}
       <svg
         width="86"

@@ -1,7 +1,10 @@
 import React from "react";
 import InfoCard from "./InfoCard";
-import { DocumentIconSVG, SupportIconSVG, WalkThroughIconSVG } from "./Icons/AlIcons";
-
+import {
+  DocumentIconSVG,
+  SupportIconSVG,
+  WalkThroughIconSVG,
+} from "../Icons/AlIcons";
 
 const DriveSales = () => {
   return (
