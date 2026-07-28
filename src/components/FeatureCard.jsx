@@ -1,6 +1,6 @@
 import React from "react";
 import { DotsIconSVG } from "./Icons/AlIcons";
-import Button from "./button";
+import Button from "./Button";
 
 const FeatureCard = ({
   image,

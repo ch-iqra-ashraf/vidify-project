@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AppCard from "./AppCard";
-import Button from "./button";
+import Button from "./Button";
 import { allData } from "../util/data";
 
 const OtherApps = () => {
