@@ -4,7 +4,7 @@ import { NotificationIconSVG, SearchIconSVG, ShopifyIconSVG } from "d:/Web devel
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#1A1A1A] text-[#E3E3E3] h-14 flex items-center justify-between px-2 sm:px-4 font-sans select-none gap-2 sm:gap-4">
+    <nav className="bg-[#1A1A1A] text-[#E3E3E3] h-20 sticky top-0 flex items-center justify-between px-2 sm:px-4 font-sans select-none gap-2 sm:gap-4">
       {/*Shopify Logo */}
       <Link to="/" aria-label="Home">
       <ShopifyIconSVG />

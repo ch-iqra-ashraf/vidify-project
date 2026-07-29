@@ -1,6 +1,6 @@
 export const allData = [
     {
-        "image": { src: "images/image 148.png", alt: "BetterDocs for Shopify" },
+        "image": { src: "/images/image 148.png", alt: "BetterDocs for Shopify" },
         "title": "BetterDocs for Shopify - Advanced Knowledge Base App",
         "description": "Boost customer satisfaction with an efficient AI-enhanced knowledge base & FAQ system. Build smart documentation and reduce support load effortlessly.",
         "bullets": [
@@ -11,7 +11,7 @@ export const allData = [
         ]
     },
     {
-        "image": { src: "images/easyflow.png", alt: "EasyFlow Product Options" },
+        "image": { src: "/images/easyflow.png", alt: "EasyFlow Product Options" },
         "title": "EasyFlow Product Options",
         "description": "EasyFlow is a Shopify app designed to enhance product customization and streamline the management of product options for online stores.",
         "bullets": [
@@ -22,7 +22,7 @@ export const allData = [
         ]
     },
     {
-        "image": { src: "images/storefaq.png", alt: "StoreFAQ - Product FAQ Builder" },
+        "image": { src: "/images/storefaq.png", alt: "StoreFAQ - Product FAQ Builder" },
         "title": "StoreFAQ - Product FAQ Builder",
         "description": "Create FAQ pages or build individual product FAQs with AI to reduce support tickets and improve the customer experience.",
         "bullets": [
@@ -33,7 +33,7 @@ export const allData = [
         ]
     },
     {
-        "image": { src: "images/trustsync.png", alt: "TrustSync - Review Collection App" },
+        "image": { src: "/images/trustsync.png", alt: "TrustSync - Review Collection App" },
         "title": "TrustSync - Review Collection App",
         "description": "Boost your business reputation by collecting reviews for Google Review, Trustpilot, Etsy & more while filtering out negative ratings.",
         "bullets": [
@@ -44,7 +44,7 @@ export const allData = [
         ]
     },
     {
-        "image": { src: "images/storeseo.png", alt: "StoreSEO - AI SEO Agent" },
+        "image": { src: "/images/storeseo.png", alt: "StoreSEO - AI SEO Agent" },
         "title": "StoreSEO - AI SEO Agent",
         "description": "StoreSEO is an AI-powered Shopify app to boost your store's search engine rankings and organic traffic through AI SEO optimization.",
         "bullets": [

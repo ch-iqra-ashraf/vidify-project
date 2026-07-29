@@ -1,8 +1,16 @@
 import React from 'react'
+import VideoGenerator from './Videogeneratorpg2'
+import { Basic } from './TabNavigation/TabNavigation'
+
+
 
 const GenerateAIVideopg2 = () => {
   return (
-    <div>GenerateAIVideopg2</div>
+    <>
+    <VideoGenerator />
+    <Basic />
+    
+    </>
   )
 }
 

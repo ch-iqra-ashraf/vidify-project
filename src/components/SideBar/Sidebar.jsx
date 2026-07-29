@@ -19,7 +19,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col h-screen w-60 bg-[#EBEBEB] border-r border-gray-200 py-4">
+    <div className="flex flex-col sticky top-8 h-screen w-60 bg-[#EBEBEB] border-r border-gray-200 py-4">
       {/* Top section: Home, Orders, Products... */}
       <nav className="flex flex-col gap-1 px-3">
         <MenuItem name={"Home"} Icon={HomeIconSVG} to="/" />
