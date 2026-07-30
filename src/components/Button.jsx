@@ -10,5 +10,5 @@ const Button = ({ name, Icon }) => {
         </button>
   );
 };
-
-export default Button;
+                        
+export default Button;   

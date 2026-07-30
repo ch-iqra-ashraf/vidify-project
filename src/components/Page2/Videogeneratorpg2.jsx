@@ -8,7 +8,7 @@ const VideoGenerator = () => {
   const progressPercent = (videosUsed / videosTotal) * 100;
 
   return (
-    <div className="flex flex-col justify-center self-center p-4 w-238 h-27.5 mt-4 opacity-100 border border-[#E0E0E0] rounded-lg bg-white">
+    <div className="flex flex-col justify-center self-center p-4 w-287.5 h-27.5 mt-2 opacity-100 border border-[#E0E0E0] rounded-lg bg-white">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-1">
           <h2 className="text-sm font-['Inter'] font-semibold text-[#303030]">

@@ -1,3 +1,5 @@
+import { DisabledEyeIconSVG, GenerateVideoIconSVG } from "../components/Icons/AlIcons";
+
 export const allTableData = [
     {
         "image": { src: "/images/product-3.jfif", alt: "stylish-summer-necklace" },
@@ -5,7 +7,7 @@ export const allTableData = [
         "images": 3,
         "status": "Active",
         "stock": "0 in stock for 50 variants",
-        "generationStatus": "Not Generated"
+        "generationStatus": "Not Generated",
     },
     {
         "image": { src: "/images/product-2.jfif", alt: "threader-necklace-closeup" },
@@ -13,7 +15,7 @@ export const allTableData = [
         "images": 5,
         "status": "Active",
         "stock": "360 in stock",
-        "generationStatus": "Wait until current video"
+        "generationStatus": "In Progress"
     },
     {
         "image": { src: "/images/product-3.jfif", alt: "silver-threader-necklace" },
@@ -38,7 +40,7 @@ export const allTableData = [
         "status": "Active",
         "stock": "120 in stock",
         "generationStatus": "Completed",
-        "action": "View Video"
+        "action": " "
     },
     {
         "image": { src: "/images/product-2.jfif", alt: "silver-threader-necklace" },
@@ -47,7 +49,7 @@ export const allTableData = [
         "status": "Active",
         "stock": "120 in stock",
         "generationStatus": "Completed",
-        "action": "Regenerate"
+        "action": ""
     },
     {
         "image": { src: "/images/product-1.jfif", alt: "silver-threader-necklace" },
